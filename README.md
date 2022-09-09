@@ -12,7 +12,14 @@
   <td>
     <a href="https://app.daily.dev/MH0386"><img src="https://api.daily.dev/devcards/6e0f20e759774a40944788b3a723ff57.png?r=5lu" width="400" alt="Mohamed Hisham Abdelzaher's Dev Card"/></a>
   </td>
-</tr>  
+</tr>
+<tr>
+  <td>
+    <a href="https://wakatime.com/@MH0386"><img src="https://wakatime.com/share/@MH0386/5d726f2b-b1fb-444c-aeb8-0dde72275da8.png" width="100%"/></a>
+  </td>
+  <td>
+    <a href="https://wakatime.com"><img src="https://wakatime.com/share/@MH0386/b4d5e133-89d3-49b1-928b-8f5e50c21c23.png" /></a>
+  </td>
+</tr>
 </table>
-<figure><embed src="https://wakatime.com/share/@MH0386/20edf4bd-e171-4ad6-a980-b36330248c45.svg" WIDTH=60%></embed></figure>
 </html>

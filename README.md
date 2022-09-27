@@ -1,27 +1,24 @@
-<html>
-<h1>Hi, I'm Mohamed Hisham <a href="https://wakatime.com/@e4d8d817-59ad-4a5a-8eb5-e35ff92d6626"><img src="https://wakatime.com/badge/user/e4d8d817-59ad-4a5a-8eb5-e35ff92d6626.svg" alt="Total time coded since Sep 2 2022" /></a> <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px"></h1>
-<table  width="100%">
-<tr>
-  <td>
-    <ul>
-      <li><b>Name:</b> Mohamed Hisham Abdelzaher</li>
-      <li><b>Role:</b> Undergraduate Student of Bachelor's in Computer Science</li>
-      <li><b>Education:</b> Faculty of Computers and Artificial Intelligence at Cairo University</li>
-    </ul>
-  </td>
-  <td>
-    <a href="https://app.daily.dev/MH0386"><img src="https://api.daily.dev/devcards/6e0f20e759774a40944788b3a723ff57.png?r=5lu" width="400" alt="Mohamed Hisham Abdelzaher's Dev Card"/></a>
-  </td>
-</tr>
-<tr>
-  <td>
-    <a href="https://wakatime.com/@MH0386"><img src="https://wakatime.com/share/@MH0386/5d726f2b-b1fb-444c-aeb8-0dde72275da8.png" width="100%"/></a>
-  </td>
-</tr>
-<tr>
-  <td>
-    <a href="https://wakatime.com"><img src="https://wakatime.com/share/@MH0386/b4d5e133-89d3-49b1-928b-8f5e50c21c23.png" /></a>
-  </td>
-</tr>
-</table>
-</html>
+<h1 align="center">Hi, I'm Mohamed Hisham Abdelzaher <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px"></h1>
+<h3 align="center">An Undergraduate Student of bachelor's degree in Computer Science from Egypt</h3>
+
+- 📫 How to reach me **mohammedhisham053@gmail.com**
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://dev.to/mh0386" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="mh0386" height="30" width="40" /></a>
+<a href="https://twitter.com/mh0386" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="mh0386" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/mh0386" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mh0386" height="30" width="40" /></a>
+<a href="https://fb.com/mh0386" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="mh0386" height="30" width="40" /></a>
+<a href="https://www.hackerrank.com/mh0386" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="mh0386" height="30" width="40" /></a>
+<a href="https://codeforces.com/profile/mh0386" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="mh0386" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/mh0386" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="mh0386" height="30" width="40" /></a>
+</p>
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+
+<ul>
+<li><p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=mh0386&show_icons=true&locale=en" alt="mh0386" /></p>
+<li><p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mh0386&" alt="mh0386" /></p>
+<li><p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=mh0386&show_icons=true&locale=en&layout=compact" alt="mh0386" /></p>
+</ul>

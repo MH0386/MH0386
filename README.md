@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Mohamed Hisham Abdelzaher</h1>
+<h1 align="center">Hi, I'm Mohamed Hisham Abdelzaher <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px"></h1>
 <h3 align="center">An Undergraduate Student of bachelor's degree in Computer Science from Egypt</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mh0386&label=Profile%20views&color=0e75b6&style=flat" alt="mh0386" /> </p>

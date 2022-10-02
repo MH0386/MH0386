@@ -28,4 +28,4 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mh0386&" alt="mh0386" /></p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=mh0386&show_icons=true&locale=en&layout=compact" alt="mh0386" /></p>
+<a href="https://app.daily.dev/MH0386"><img src="https://api.daily.dev/devcards/6e0f20e759774a40944788b3a723ff57.png?r=kqh" width="400" alt="Mohamed Hisham Abdelzaher's Dev Card"/></a>

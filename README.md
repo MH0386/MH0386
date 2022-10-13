@@ -7,7 +7,6 @@
 
 - My Website [https://mh0386.github.io](https://mh0386.github.io)
 
-- My Personal Email **mohammedhisham053@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">

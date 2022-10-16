@@ -3,7 +3,6 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
     </head>
     <body>
         <h1 align="center">Hi, I'm Mohamed Hisham Abdelzaher <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px"></h1>
@@ -26,12 +25,8 @@
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cpp" width="40" height="40">
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40">
         </p>
-        <div class="badge-base LI-profile-badge" data-locale="ar_AE" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="mh0386" data-version="v1">
-            <a class="badge-base__link LI-simple-link" href="https://eg.linkedin.com/in/mh0386?trk=profile-badge"></a>
-        </div>
         <a href="https://app.daily.dev/MH0386">
             <img src="https://api.daily.dev/devcards/6e0f20e759774a40944788b3a723ff57.png?r=kqh" width="400" alt="Mohamed Hisham Abdelzaher's Dev Card"/>
         </a>
     </body>
 </html>
-

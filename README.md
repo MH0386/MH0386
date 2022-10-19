@@ -25,8 +25,5 @@
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cpp" width="40" height="40">
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40">
         </p>
-        <a href="https://app.daily.dev/MH0386">
-            <img src="https://api.daily.dev/devcards/6e0f20e759774a40944788b3a723ff57.png?r=kqh" width="400" alt="Mohamed Hisham Abdelzaher's Dev Card"/>
-        </a>
     </body>
 </html>

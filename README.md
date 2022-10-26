@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Mohamed Hisham Abdelzaher <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px"></h1>
 <h3 align="center">An Undergraduate Student of bachelor's degree in Computer Science from Egypt</h3>
 
-[![](https://visitcount.itsvg.in/api?id=MH0386&icon=0&color=12)](https://visitcount.itsvg.in)
+[![](https://visitcount.itsvg.in/api?id=MH0386&label=Profile%20Views&color=12&icon=0&pretty=true)](https://visitcount.itsvg.in)
 
 # 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/MH0386) 

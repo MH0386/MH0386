@@ -20,7 +20,3 @@
 ![](https://github-readme-stats.vercel.app/api?username=MH0386&theme=dark&hide_border=true&include_all_commits=true&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=MH0386&theme=dark&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=MH0386&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
-
-<a href="https://app.codiga.io/hub/user/github">
-   <img src="https://api.codiga.io/public/badge/user/github/mh0386?style=dark" alt="codiga badge" />
-</a>

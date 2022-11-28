@@ -3,7 +3,7 @@
 
 ---
 
-[![](https://visitcount.itsvg.in/api?id=MH0386&label=Profile%20Views&color=12&icon=0&pretty=true)](https://visitcount.itsvg.in)
+[![](https://visitcount.itsvg.in/api?id=MH0386&label=Profile%20Views&color=12&icon=0&pretty=true)](https://visitcount.itsvg.in/analytics/MH0386)
 
 [![](https://www.codewars.com/users/MH0386/badges/large)](https://www.codewars.com/users/MH0386)
 

@@ -20,4 +20,5 @@
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=MH0386&theme=dark&hide_border=true&include_all_commits=true&count_private=true)
 ![](https://github-readme-streak-stats.herokuapp.com/?user=MH0386&theme=dark&hide_border=true)
+[![](https://github-readme-stats.vercel.app/api/wakatime?username=MH0386&theme=dark&hide_border=true)](https://wakatime.com/@MH0386)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=MH0386&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)

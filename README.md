@@ -24,4 +24,4 @@
 [![](https://github-readme-stats.vercel.app/api/wakatime?username=MH0386&theme=dark&hide_border=true)](https://wakatime.com/@MH0386)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=MH0386&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
 
-# ⌛Wawartime![image](https://wakatime.com/share/@MH0386/d53de934-fc8c-4ab6-b212-8b6e27d66b1c.svg)](https://wakatime.com/@MH0386)
+# ⌛Wawartime![image](https://wakatime.com/share/@MH0386/a4a70624-a962-4d26-a403-7dba16508b33.svg)](https://wakatime.com/@MH0386)

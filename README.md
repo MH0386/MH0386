@@ -28,10 +28,7 @@
 
 <h2 align="center">GitHub Stats</h2>
 <p align="center"> 
-<img src="https://github-readme-stats.vercel.app/api?username=MH0386&theme=dark&hide_border=true&include_all_commits=true&count_private=true" alt="MH0386" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=MH0386&theme=dark&hide_border=true" alt="MH0386" />
-<a href="https://wakatime.com/@MH0386"><img src="https://github-readme-stats.vercel.app/api/wakatime?username=MH0386&theme=dark&hide_border=true" alt="MH0386" /> </a>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MH0386&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="MH0386" height="150">
+<img src="https://github-readme-stats.vercel.app/api?username=MH0386&theme=dark&hide_border=true&include_all_commits=true&count_private=true" alt="MH0386" /><img src="https://github-readme-streak-stats.herokuapp.com/?user=MH0386&theme=dark&hide_border=true" alt="MH0386" /><a href="https://wakatime.com/@MH0386"><img src="https://github-readme-stats.vercel.app/api/wakatime?username=MH0386&theme=dark&hide_border=true" alt="MH0386" /> </a><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MH0386&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="MH0386" height="150">
 </p>
 
 

@@ -49,7 +49,7 @@
   <a href="https://wakatime.com/@MH0386">
     <img src="https://github-readme-stats.vercel.app/api/wakatime?username=MH0386&theme=dark&hide_border=true" alt="MH0386" />
   </a>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/username=MH0386&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="MH0386" height="150">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MH0386&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="MH0386" height="150">
 </p>
 
 <h2 align="center">⌛WakaTime</h2>

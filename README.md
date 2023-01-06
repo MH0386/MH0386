@@ -1,32 +1,38 @@
-# Hi, I'm Mohamed Hisham Abdelzaher
-
-## An Undergraduate Student of bachelor's degree in Computer Science from Egypt
+<h1 align="center">Hi, I'm Mohamed Hisham Abdelzaher</h1>
+<h2 align="center">An Undergraduate Student of bachelor's degree in Computer Science from Egypt</h2>
 
 [![Counter](https://visitcount.itsvg.in/api?id=MH0386&label=Profile%20Views&color=12&icon=0&pretty=true)](https://visitcount.itsvg.in/analytics/MH0386)
 [![Wakatime](https://wakatime.com/badge/user/e4d8d817-59ad-4a5a-8eb5-e35ff92d6626.svg)](https://wakatime.com/@MH0386)
 
-## 🌐 Socials
+<h2 align="center">Connect with me</h3>
+<p align="center">
+<a href="https://twitter.com/mh0386" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="mh0386" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/mh0386" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mh0386" height="30" width="40" /></a>
+<a href="https://stackoverflow.com/users/16603670" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="16603670" height="30" width="40" /></a>
+<a href="https://kaggle.com/mh0386" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="mh0386" height="30" width="40" /></a>
+<a href="https://fb.com/mh0386" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="mh0386" height="30" width="40" /></a>
+<a href="https://www.hackerrank.com/mh0386" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="mh0386" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/mh0386" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="mh0386" height="30" width="40" /></a>
+<a href="https://www.codewars.com/users/MH0386" target="blank"><img align="center" src="https://www.codewars.com/packs/assets/logo.61192cf7.svg" alt="mh0386" height="30" /></a>
+</p>
 
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/MH0386)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/MH0386)
-[![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/16603670)
-[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/MH0386)
-[![Codewars](https://www.codewars.com/users/MH0386/badges/micro)](https://www.codewars.com/users/MH0386)
+<h2 align="center">Languages and Tools</h3>
+<p align="center"> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/>
+<img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
+</p>
 
-## 💻 Tech Stack
-
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white)
-![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=flat&logo=dart&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)
-![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=flat&logo=anaconda&logoColor=white)
-
-## 📊 GitHub Stats
-
-![](https://github-readme-stats.vercel.app/api?username=MH0386&theme=dark&hide_border=true&include_all_commits=true&count_private=true)
-![](https://github-readme-streak-stats.herokuapp.com/?user=MH0386&theme=dark&hide_border=true)
-[![](https://github-readme-stats.vercel.app/api/wakatime?username=MH0386&theme=dark&hide_border=true)](https://wakatime.com/@MH0386)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=MH0386&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
+<h2 align="center">GitHub Stats</h3>
+<p align="center"> 
+<img src="https://github-readme-stats.vercel.app/api?username=MH0386&theme=dark&hide_border=true&include_all_commits=true&count_private=true" alt="MH0386" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=MH0386&theme=dark&hide_border=true" alt="MH0386" />
+<a href="https://wakatime.com/@MH0386"><img src="https://github-readme-stats.vercel.app/api/wakatime?username=MH0386&theme=dark&hide_border=true" alt="MH0386" /> </a>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MH0386&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="MH0386" height="150">
+</p>
 
 ## ⌛WakaTime
 

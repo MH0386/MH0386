@@ -4,7 +4,7 @@
 [![Counter](https://visitcount.itsvg.in/api?id=MH0386&label=Profile%20Views&color=12&icon=0&pretty=true)](https://visitcount.itsvg.in/analytics/MH0386)
 [![Wakatime](https://wakatime.com/badge/user/e4d8d817-59ad-4a5a-8eb5-e35ff92d6626.svg)](https://wakatime.com/@MH0386)
 
-<h2 align="center">Connect with me</h3>
+<h2 align="center">Connect with me</h2>
 <p align="center">
 <a href="https://twitter.com/mh0386" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="mh0386" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/mh0386" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mh0386" height="30" width="40" /></a>
@@ -16,7 +16,7 @@
 <a href="https://www.codewars.com/users/MH0386" target="blank"><img align="center" src="https://www.codewars.com/packs/assets/logo.61192cf7.svg" alt="mh0386" height="30" /></a>
 </p>
 
-<h2 align="center">Languages and Tools</h3>
+<h2 align="center">Languages and Tools</h2>
 <p align="center"> 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/>
@@ -26,7 +26,7 @@
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
 </p>
 
-<h2 align="center">GitHub Stats</h3>
+<h2 align="center">GitHub Stats</h2>
 <p align="center"> 
 <img src="https://github-readme-stats.vercel.app/api?username=MH0386&theme=dark&hide_border=true&include_all_commits=true&count_private=true" alt="MH0386" />
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=MH0386&theme=dark&hide_border=true" alt="MH0386" />
@@ -35,5 +35,6 @@
 </p>
 
 
-<h2 align="center">⌛WakaTime</h3>
+<h2 align="center">⌛WakaTime</h2>
+
 [![image](https://wakatime.com/share/@MH0386/a4a70624-a962-4d26-a403-7dba16508b33.svg)](https://wakatime.com/@MH0386)

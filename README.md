@@ -8,6 +8,9 @@
     <a href="https://wakatime.com/@MH0386" target="blank">
         <img align="center" src="https://wakatime.com/badge/user/e4d8d817-59ad-4a5a-8eb5-e35ff92d6626.svg" />
     </a>
+    <a href="https://www.codewars.com/users/MH0386" target="blank">
+        <img align="center" src="https://www.codewars.com/users/MH0386/badges/micro" />
+    </a>
 </p>
 
 <h2 align="center">Connect with me</h2>

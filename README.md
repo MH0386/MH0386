@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Mohamed Hisham Abdelzaher</h1>
-<h2 align="center">An Undergraduate Student of bachelor's degree in Computer Science from Egypt</h2>
+<h2 align="center">Undergraduate Student with a Bachelor's Degree in Computer Science from Egypt</h2>
 
 <p align="center">
     <a href="https://visitcount.itsvg.in/analytics/MH0386" target="blank">

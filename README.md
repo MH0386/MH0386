@@ -11,9 +11,6 @@
     <a href="https://www.codewars.com/users/MH0386" target="blank">
         <img align="center" src="https://www.codewars.com/users/MH0386/badges/micro" />
     </a>
-    <a href="https://flowcv.com/resume/is9tktrcqi" target="blank">
-        <img align="center" src="icons8-cv-60.png" width=30/>
-    </a>
 </p>
 
 <h2 align="center">Connect with me</h2>

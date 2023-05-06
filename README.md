@@ -2,6 +2,7 @@
 <h3 align="center">An Undergraduate Student of bachelor's degree in Computer Science from Egypt</h3>
 
 [![](https://visitcount.itsvg.in/api?id=MH0386&label=Profile%20Views&color=12&icon=0&pretty=true)](https://visitcount.itsvg.in/analytics/MH0386)
+
 [![wartime](https://wakatime.com/badge/user/e4d8d817-59ad-4a5a-8eb5-e35ff92d6626.svg)](https://wakatime.com/@MH0386)
 
 # 🌐 Socials:
@@ -24,4 +25,5 @@
 [![](https://github-readme-stats.vercel.app/api/wakatime?username=MH0386&theme=dark&hide_border=true)](https://wakatime.com/@MH0386)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=MH0386&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
 
-# ⌛Wawartime![image](https://wakatime.com/share/@MH0386/a4a70624-a962-4d26-a403-7dba16508b33.svg)](https://wakatime.com/@MH0386)
+# ⌛Wawartime:
+[![image](https://wakatime.com/share/@MH0386/a4a70624-a962-4d26-a403-7dba16508b33.svg)](https://wakatime.com/@MH0386)

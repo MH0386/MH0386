@@ -2,9 +2,7 @@
 <h2 align="center">Undergraduate Student with a Bachelor's Degree in Computer Science from Egypt</h2>
 
 [![](https://visitcount.itsvg.in/api?id=MH0386&label=Profile%20Views&color=12&icon=0&pretty=true)](https://visitcount.itsvg.in/analytics/MH0386)
-
 [![wartime](https://wakatime.com/badge/user/e4d8d817-59ad-4a5a-8eb5-e35ff92d6626.svg)](https://wakatime.com/@MH0386)
-
 [![](https://www.codewars.com/users/MH0386/badges/micro)](https://www.codewars.com/users/MH0386)
 
 # 🌐 Socials

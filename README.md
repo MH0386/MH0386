@@ -38,7 +38,7 @@
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=MH0386&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
 
-# ⌛Wawartime
+# ⌛Wakatime
 
 [![image](https://wakatime.com/share/@MH0386/a4a70624-a962-4d26-a403-7dba16508b33.svg)](https://wakatime.com/@MH0386)
 

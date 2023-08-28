@@ -12,24 +12,6 @@
 [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/MH0386)
 [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/16603670)
 
-# Skills 
-
-- Python
-  - Pandas
-  - NumPy
-  - Matplotlib
-    - Data Visualization 
-  - Data Analysis
-  - Data Science
-  - Machine Learning
-    - scikit-learn
-    - Linear Regression
-    - Logistic Regression
-    - K-Fold Cross Validation  
-- Java
-- C++
-- OOP
-
 #  GitHub Stats
 
 ![](https://github-readme-stats.vercel.app/api?username=MH0386&theme=dark&hide_border=true&include_all_commits=true&count_private=true)

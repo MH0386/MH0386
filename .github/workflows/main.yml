@@ -21,7 +21,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: PDF
-          path: artifacts/${{ env.ARTIFACT }}
+          path: ${{ env.ARTIFACT }}
           retention-days: 7
 
       - name: Unzip artifact

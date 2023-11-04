@@ -1,40 +1,25 @@
-name: Build LaTeX document
+name: LateX to PDF
 on:
   push:
-    branches:
+    branches: 
       - main
-env:
-    ARTIFACT: PDF.zip
 jobs:
-  build:
+  build_latex:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Set up Git repository
         uses: actions/checkout@v3
-
-      - name: Compile LaTeX document
-        uses: xu-cheng/latex-action@v3
+        
+      - name: latex2pdf
+        id: compile-latex-document
+        uses: thomas-chauvet/latex2pdf-action@1.0.5
         with:
-          root_file: resume.tex
-
-      - name: Upload documentation
-        uses: actions/upload-artifact@v3
+          output_dir: output
+          main_latex_file: resume.tex
+          
+      - name: Upload PDF to the workflow tab
+        id: upload-workflow-tab
+        uses: actions/upload-artifact@v2
         with:
-          name: PDF
-          path: ${{ env.ARTIFACT }}
-          retention-days: 7
-
-      - name: Unzip artifact
-        uses: montudor/action-zip@v1
-        with:
-          args: unzip -qq ${{ env.ARTIFACT }} -d dir
-  test:
-# Requires build job results
-    needs: build
-    runs-on: ubuntu-latest
-
-    steps:
-        - name: Download artifacts
-          uses: actions/download-artifact@v1
-          with:
-            name: PDF
+          name: output
+          path: output/resume.pdf

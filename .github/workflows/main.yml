@@ -15,18 +15,12 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           root_file: resume.tex
-          latexmk_shell_escape: true
 
       - name: Upload PDF
         uses: actions/upload-artifact@v3
         with:
           name: PDF
           path: resume.pdf
-          
-      - name: Download artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: PDF
 
       - name: Unzip artifact
         uses: montudor/action-zip@v1

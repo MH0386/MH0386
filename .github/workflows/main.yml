@@ -1,0 +1,4 @@
+- name: paper-maker
+  # You may pin to the exact commit or the version.
+  # uses: andycasey/paper-maker@271d9fc1928af886e47092b0de472ab24d28a797
+  uses: andycasey/paper-maker@0.10

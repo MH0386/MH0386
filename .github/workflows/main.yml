@@ -17,11 +17,12 @@ jobs:
         with:
           root_file: resume.tex
 
-      - name: Upload PDF
+      - name: Upload documentation
         uses: actions/upload-artifact@v3
         with:
           name: PDF
-          path: resume.pdf
+          path: artifacts/${{ env.ARTIFACT }}
+          retention-days: 7
 
       - name: Unzip artifact
         uses: montudor/action-zip@v1

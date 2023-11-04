@@ -1,4 +1,24 @@
-- name: paper-maker
-  # You may pin to the exact commit or the version.
-  # uses: andycasey/paper-maker@271d9fc1928af886e47092b0de472ab24d28a797
-  uses: andycasey/paper-maker@0.10
+name: Build LaTeX document
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: resume.tex
+          latexmk_shell_escape: true
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@v3
+        with:
+          name: PDF
+          path: resume.pdf

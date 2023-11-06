@@ -14,4 +14,4 @@ jobs:
         uses: lyuwen/build-latex-action@v1
         with:
           file: 'resume.tex'
-          
+          output: 'resume.pdf'

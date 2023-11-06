@@ -1,5 +1,4 @@
 name: LateX to PDF
-
 on:
   push:
     branches: 

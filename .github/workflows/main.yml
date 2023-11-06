@@ -3,13 +3,7 @@ name: LateX to PDF
 on:
   push:
     branches: 
-      - master
-      - develop
-    tags:
-       - '*'
-  pull_request:
-    branches: [ master ]
-
+      - main
 jobs:
   build_latex:
     runs-on: ubuntu-latest

@@ -11,6 +11,11 @@ jobs:
         uses: actions/checkout@v3
       - name: Python3
         run: python3 
+<<<<<<< HEAD
+=======
+      - name: Install pdflatex
+        run: pip install pdflatex
+>>>>>>> f109ea8c15bf977b28a21a7efba3139c7b11baff
       - name: Script to generate PDF
         run: |
           from pdflatex import PDFLaTeX

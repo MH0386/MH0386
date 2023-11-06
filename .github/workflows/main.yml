@@ -9,9 +9,15 @@ jobs:
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v3
-      - name: Build LaTeX Document
-        run: sudo apt-get install texlive texinfo texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra -y && pdflatex resume.tex
+      - name: Python3
+        run: python3 
+      - name: Script to generate PDF
+        run: |
+          from pdflatex import PDFLaTeX
+          pdfl = PDFLaTeX.from_texfile("resume.tex")
+          pdf, log, completed_process = pdfl.create_pdf(keep_pdf_file=True, keep_log_file=True)
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3.1.3
         with:
           name: resume.pdf
+          path: resume.pdf

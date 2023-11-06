@@ -14,3 +14,4 @@ jobs:
         with:
           tex-entry-point: 'resume'
           pdf-name: 'resume'
+          gh-token: ${{ secrets.GITHUB_TOKEN }}

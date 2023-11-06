@@ -11,7 +11,7 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v2
       - name: Build LaTeX Document
-        uses: lyuwen/build-latex-action@v1
+        uses: lyuwen/build-latex-action@v1.0.1
         with:
           file: 'resume.tex'
           output: 'resume.pdf'

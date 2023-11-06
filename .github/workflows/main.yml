@@ -8,7 +8,5 @@ jobs:
   build_latex:
     runs-on: ubuntu-latest
     steps:
-      - name: Set up Git repository
-        uses: actions/checkout@v3
       - name: Build LaTeX Document
         run: sudo apt-get install texlive texinfo texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra -y && pdflatex resume.tex

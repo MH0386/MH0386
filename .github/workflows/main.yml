@@ -9,3 +9,7 @@ jobs:
     steps:
       - name: Build LaTeX Document
         run: sudo apt-get install texlive texinfo texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra -y && pdflatex resume.tex
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v3.1.3
+        with:
+          name: resume.pdf

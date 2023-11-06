@@ -11,4 +11,4 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v2
       - name: Build LaTeX Document
-        run: pdflatex resume.tex
+        run: sudo apt-get install texlive texinfo texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra -y && pdflatex resume.tex

@@ -15,7 +15,6 @@ jobs:
               uses: actions/setup-python@v4.7.1
             - name: Install dependencies
               run: |
-                  apt-get update -y
                   python -m pip install --upgrade pip
                   pip install subprocess
             - name: Run Python Script

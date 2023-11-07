@@ -1,5 +1,4 @@
-<h1 align="center">Hi, I'm Mohamed Hisham Abdelzaher</h1>
-<h2 align="center">Undergraduate Student at Cairo University</h2>
+# Hi, I'm Mohamed Hisham Abdelzaher, a student at Cairo University
 
 [![](https://visitcount.itsvg.in/api?id=MH0386&label=Profile%20Views&color=12&icon=0&pretty=true)](https://visitcount.itsvg.in/analytics/MH0386)
 [![wartime](https://wakatime.com/badge/user/e4d8d817-59ad-4a5a-8eb5-e35ff92d6626.svg)](https://wakatime.com/@MH0386)

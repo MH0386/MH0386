@@ -14,14 +14,5 @@
 
 #  GitHub Stats
 
-![](https://github-readme-stats.vercel.app/api?username=MH0386&theme=dark&hide_border=true&include_all_commits=true&count_private=true)
-
-![](https://github-readme-streak-stats.herokuapp.com/?user=MH0386&theme=dark&hide_border=true)
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=MH0386&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
-
-# Wakatime
-
-[![image](https://wakatime.com/share/@MH0386/a4a70624-a962-4d26-a403-7dba16508b33.svg)](https://wakatime.com/@MH0386)
-
-[![](https://github-readme-stats.vercel.app/api/wakatime?username=MH0386&theme=dark&hide_border=true)](https://wakatime.com/@MH0386)
+![](https://github-readme-stats.vercel.app/api?username=MH0386&theme=github_dark&show_icons=true&hide_border=true&include_all_commits=true&count_private=true)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=MH0386&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)

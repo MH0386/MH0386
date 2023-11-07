@@ -6,6 +6,7 @@ latex_content = r""
 with open("resume.tex", "r") as file:
     latex_content = file.read().rstrip("\n")
 print(latex_content)
+
 # Write the LaTeX content to a file
 with open("tmp.tex", "w") as f:
     f.write(latex_content)

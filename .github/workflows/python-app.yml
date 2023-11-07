@@ -9,6 +9,8 @@ permissions:
 jobs:
     build:
         runs-on: ubuntu-latest
+        permissions:
+          id-token: write
         steps:
             - uses: actions/checkout@v3
             - name: Set up Python
@@ -30,3 +32,12 @@ jobs:
               with:
                 name: tmp
                 path: .
+            - name: Download artifact
+              uses: actions/download-artifact@v3
+              with:
+                name: tmp
+
+            - name: Unzip artifact
+              uses: montudor/action-zip@v1
+              with:
+                args: unzip -qq tmp.zip -d dir

@@ -34,6 +34,8 @@ jobs:
               with:
                 name: tmp
                 path: .
+            - name: Where am I?
+              run: pwd
             - name: Unzip artifact
               uses: montudor/action-zip@v1
               with:

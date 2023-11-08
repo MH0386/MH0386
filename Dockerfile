@@ -19,9 +19,8 @@ RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys D6BC243565
 RUN echo "deb http://miktex.org/download/ubuntu focal universe" | tee /etc/apt/sources.list.d/miktex.list
 
 RUN    apt-get update -y \
-    && apt-get install -y --no-install-recommends miktex
-    && python -m pip install --upgrade pip
-    && pip install pdflatex
+    && apt-get install -y --no-install-recommends \
+           miktex
 
 RUN    miktexsetup finish \
     && initexmf --admin --set-config-value=[MPM]AutoInstall=1 \

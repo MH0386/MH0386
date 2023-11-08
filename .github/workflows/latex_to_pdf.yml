@@ -3,7 +3,6 @@ on: [push]
 jobs:
   build_latex:
     runs-on: ubuntu-latest
-    continue-on-error: true
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v3
@@ -23,5 +22,6 @@ jobs:
           git add .         
           git commit -m "add PDF file"           
           git push
+        continue-on-error: true
       - name: Delete Unwanted Files
         run: rm resume.aux resume.fdb_latexmk resume.fls resume.log resume.out

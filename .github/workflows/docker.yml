@@ -1,0 +1,23 @@
+name: Docker Image CI
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build the Docker image
+      run: docker build --tag 'latex_to_pdf' . && docker run --detach 'latex_to_pdf'
+    - name: Install dependencies
+      run: |
+        sudo apt-get install texlive-latex-base
+        sudo apt-get install texlive-fonts-recommended
+        sudo apt-get install texlive-fonts-extra
+        sudo apt-get install texlive-latex-extra
+    - name: RUN
+      run: pdflatex resume.tex

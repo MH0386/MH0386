@@ -15,3 +15,10 @@ jobs:
         with:
           name: PDF
           path: resume.pdf
+      - name: Commit and Push new file         
+        run: |  
+          git config user.name MH0386          
+          git config user.email mohamed.hisham.abdelzaher@gmail.com         
+          git add .         
+          git commit -m "add PDF file"           
+          git push

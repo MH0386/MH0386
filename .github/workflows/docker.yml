@@ -12,4 +12,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker run -v miktex:/var/lib/miktex -v `pwd`:/miktex/work -e MIKTEX_UID=`id -u` miktex/miktex:essential pdflatex resume.tex
+      run: docker build --tag 'latex_to_pdf' . && docker run --detach 'latex_to_pdf' && pdflatex resume.tex

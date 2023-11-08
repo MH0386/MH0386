@@ -24,4 +24,10 @@ jobs:
           git push
         continue-on-error: true
       - name: Delete Unwanted Files
-        run: rm resume.aux resume.fdb_latexmk resume.fls resume.log resume.out
+        run: |
+          rm resume.aux resume.fdb_latexmk resume.fls resume.log resume.out
+          git config user.name MH0386          
+          git config user.email mohamed.hisham.abdelzaher@gmail.com         
+          git add .         
+          git commit -m "Delete Unwanted Files"           
+          git push

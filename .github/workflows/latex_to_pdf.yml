@@ -22,3 +22,5 @@ jobs:
           git add .         
           git commit -m "add PDF file"           
           git push
+      - name: Delete Unwanted Files
+        run: rm resume.aux resume.fdb_latexmk resume.fls resume.log resume.out

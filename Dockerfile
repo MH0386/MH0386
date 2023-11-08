@@ -30,9 +30,6 @@ RUN    miktexsetup finish \
            --install biber-linux-x86_64 \
     && initexmf --admin --update-fndb
 
-COPY entrypoint.sh /
-ENTRYPOINT ["/entrypoint.sh"]
-
 ENV MIKTEX_USERCONFIG=/miktex/.miktex/texmfs/config
 ENV MIKTEX_USERDATA=/miktex/.miktex/texmfs/data
 ENV MIKTEX_USERINSTALL=/miktex/.miktex/texmfs/install

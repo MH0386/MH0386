@@ -1,4 +1,4 @@
-name: Build LaTeX document
+name: Generate Resume
 on: [push]
 jobs:
     build_latex:
@@ -9,17 +9,18 @@ jobs:
             - name: Set up Cache
               uses: actions/cache@v4.0.1
               with:
-                  path: ~/.texlive
+                  path: ~/.cache
                   key: ${{ runner.os }}-texlive-${{ hashFiles('**/README.md') }}
                   restore-keys: ${{ runner.os }}-texlive-
-            - name: Compile LaTeX document
-              uses: xu-cheng/latex-action@v3
+            - name: Setup Typst
+              uses: typst-community/setup-typst@v3.1.0
               with:
-                  root_file: resume.tex
+                cache-dependency-path: requirements.typ
+            - run: typst compile resume.typ resume.pdf
             - name: Upload PDF file
               uses: actions/upload-artifact@v4.3.1
               with:
-                  name: PDF
+                  name: resume
                   path: resume.pdf
             - name: Commit and Push new file
               run: |
@@ -30,12 +31,4 @@ jobs:
                   git pull          
                   git push
               continue-on-error: true
-            - name: Delete Unwanted Files
-              run: |
-                  rm resume.aux resume.fdb_latexmk resume.fls resume.log resume.out
-                  git config user.name MH0386          
-                  git config user.email mohamed.hisham.abdelzaher@gmail.com         
-                  git add .         
-                  git commit -m "Delete Unwanted Files"       
-                  git pull    
-                  git push
+      

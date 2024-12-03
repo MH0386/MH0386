@@ -1,8 +1,16 @@
 pull_request_rules:
-  - name: Automatic merge when CI passes and reviews approve
+  - name: Automatically merge Dependabot PRs
     conditions:
-      - "#approved-reviews-by >= 1"
+      - author = dependabot[bot]
+    actions:
+      queue:
+  - name: Automatically merge Renovate PRs
+    conditions:
       - author = renovate[bot]
     actions:
-      merge:
-        method: merge
+      queue:
+queue_rules:
+  - queue_branch_merge_method: fast-forward
+    allow_queue_branch_edit: true
+    update_method: merge
+    name: default

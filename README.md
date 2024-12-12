@@ -10,8 +10,8 @@
 <a href="https://github.com/devxb/gitanimals">
   <img
     src="https://render.gitanimals.org/lines/MH0386?pet-id=655173833356605893"
-    width="600"
-    height="120"
+    width="800"
+    height="200"
   />
 </a>
 

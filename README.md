@@ -5,6 +5,7 @@
 [![Peerlist](https://github-readme-badge.peerlist.io/api/mh0386)](https://peerlist.io/mh0386)
 [![](https://www.codewars.com/users/MH0386/badges/micro)](https://www.codewars.com/users/MH0386)
 [![My CV](https://img.shields.io/badge/My%20CV-My%20CV)](https://github.com/MH0386/MH0386/blob/main/resume.pdf)
+[![GitRoll](https://img.shields.io/badge/GitRoll-blue)](https://gitroll.io/profile/uZb4MEBrxYReBqPwHa4MWRdtFmg03)
 
 ---
 

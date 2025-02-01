@@ -23,6 +23,7 @@ jobs:
                 files: resume.pdf
                 generate_release_notes: true
                 make_latest: true
+                tag_name: ${{ github.sha }}
             - name: Commit and Push new file
               run: |
                   git config user.name MH0386          

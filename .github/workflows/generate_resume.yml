@@ -7,7 +7,7 @@ jobs:
             - name: Set up Git repository
               uses: actions/checkout@v4.2.2
             - name: Setup Typst
-              uses: typst-community/setup-typst@v4.0.3
+              uses: typst-community/setup-typst@v4.1.0
               with:
                 cache-dependency-path: requirements.typ
             - run: typst compile resume.typ resume.pdf

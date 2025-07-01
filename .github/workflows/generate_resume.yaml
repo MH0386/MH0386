@@ -22,10 +22,3 @@ jobs:
               uses: stefanzweifel/git-auto-commit-action@v6
               with:
                 commit_message: Update Docs
-            - name: Create Release
-              uses: softprops/action-gh-release@72f2c25fcb47643c292f7107632f7a47c1df5cd8 # v2
-              with:
-                files: docs/**
-                generate_release_notes: true
-                make_latest: true
-                tag_name: ${{ github.run_number }}

@@ -7,10 +7,17 @@ concurrency:
   group: code-analysis
   cancel-in-progress: true
 jobs:
-  run-lint:
+  typstyle:
+    name: Format Typst
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Run typstyle
         uses: grayespinoza/typstyle-action@v0.13.11
+      - name: Push
+        uses: stefanzweifel/git-auto-commit-action@v6
+        with:
+          commit_message: "style: format using typstyle"

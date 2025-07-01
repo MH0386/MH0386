@@ -1,5 +1,8 @@
 name: Generate Resume
-on: [push]
+on: 
+    push:
+        branches: 
+            - main
 jobs:
     build_typst:
         name: Typst

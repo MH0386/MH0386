@@ -2,12 +2,12 @@
 #align(center)[
   #smallcaps[#text(weight: "black", size: 20pt)[Mohamed Hisham Abdelzaher]] \
   Undergraduate Student \
-  #link("mailto:mohamed.hisham.abdelzaher@gmail.com")[mohamed.hisham.abdelzaher\@gmail.com] | 
-  #link("tel:+201126748566")[+201126748566] | 
+  #link("mailto:mohamed.hisham.abdelzaher@gmail.com")[mohamed.hisham.abdelzaher\@gmail.com] |
+  #link("tel:+201126748566")[+201126748566] |
   Ezz El-Deen Omar Street, Giza, Egypt \
   #strong[
-    #link("https://mohamedhisham.is-a.dev")[My Website] | 
-    #link("https://github.com/MH0386")[GitHub] | 
+    #link("https://mohamedhisham.is-a.dev")[My Website] |
+    #link("https://github.com/MH0386")[GitHub] |
     #link("https://linkedin.com/in/MH0386")[Linkedin]
   ]
 ]
@@ -64,7 +64,7 @@ Artificial Intelligence Department, Bachelor of Computer Science #h(1fr) October
 - Basic English 1: Elementary - #strong[#link("https://www.futurelearn.com/certificates/6b0dwsc")[FutureLearn]] \
 - Python Programming Basics - #strong[#link(
     "https://maharatech.gov.eg/badges/badge.php?hash=cdd36d5d43a2643e0b4b1ef117580488dc81fee7",
-  )[MaharaTech]] 
+  )[MaharaTech]]
 
 = #smallcaps[Awards]
 #chiline()

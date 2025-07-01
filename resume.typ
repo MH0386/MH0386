@@ -12,7 +12,11 @@
   ]
 ]
 
-#let chiline() = {v(-3pt); line(length: 100%); v(-5pt)}
+#let chiline() = {
+  v(-3pt)
+  line(length: 100%)
+  v(-5pt)
+}
 
 = #smallcaps[Education]
 #chiline()
@@ -37,16 +41,20 @@ Artificial Intelligence Department, Bachelor of Computer Science #h(1fr) October
 = #smallcaps[Projects]
 #chiline()
 
-#strong[Car Price Prediction]  #h(1fr) #link("https://github.com/MH0386/car_price_prediction")[GitHub] \
-#strong[Motorcycle Data Analysis]  #h(1fr) #link("https://github.com/MH0386/motorcycle_data_analysis")[GitHub] \
-#strong[Logistic Regression]  #h(1fr) #link("https://github.com/MH0386/logistic_regression")[GitHub] \
+#strong[Car Price Prediction]  #h(1fr) #link(
+  "https://github.com/MH0386/car_price_prediction",
+)[GitHub] \
+#strong[Motorcycle Data Analysis]  #h(1fr) #link(
+  "https://github.com/MH0386/motorcycle_data_analysis",
+)[GitHub] \
+#strong[Logistic Regression]  #h(1fr) #link(
+  "https://github.com/MH0386/logistic_regression",
+)[GitHub] \
 
 = #smallcaps[Certifications]
 #chiline()
 
-- Git and GitHub - #strong[#link(
-    "https://almdrasa.com/certificate-verification/14AC69499-1454BFCF0-12722213C",
-  )[Almdrasa]] \
+- Git and GitHub - #strong[#link("https://almdrasa.com/certificate-verification/14AC69499-1454BFCF0-12722213C")[Almdrasa]] \
 - Machine Learning Specialization - #strong[#link("https://coursera.org/verify/specialization/3BRYQRFUD5C6")[Coursera]] \
 - Unsupervised Learning, Recommenders, Reinforcement Learning - #strong[#link("https://coursera.org/verify/B4NKPXD9UN9Z")[Coursera]] \
 - Advanced Learning Algorithms - #strong[#link("https://coursera.org/verify/HM55XWLDYPA3")[Coursera]] \
@@ -62,9 +70,7 @@ Artificial Intelligence Department, Bachelor of Computer Science #h(1fr) October
 - SQL - #strong[#link("https://www.sololearn.com/certificates/CT-D0OEQKTQ")[Sololearn]] \
 - C++ Basics: Selection and Iteration - #strong[#link("https://coursera.org/verify/XBZVNYQD2ULL")[Coursera]] \
 - Basic English 1: Elementary - #strong[#link("https://www.futurelearn.com/certificates/6b0dwsc")[FutureLearn]] \
-- Python Programming Basics - #strong[#link(
-    "https://maharatech.gov.eg/badges/badge.php?hash=cdd36d5d43a2643e0b4b1ef117580488dc81fee7",
-  )[MaharaTech]]
+- Python Programming Basics - #strong[#link("https://maharatech.gov.eg/badges/badge.php?hash=cdd36d5d43a2643e0b4b1ef117580488dc81fee7")[MaharaTech]]
 
 = #smallcaps[Awards]
 #chiline()

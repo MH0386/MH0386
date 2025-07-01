@@ -1,0 +1,16 @@
+name: Code Analysis
+on:
+  push:
+  pull_request:
+permissions: read-all
+concurrency:
+  group: code-analysis
+  cancel-in-progress: true
+jobs:
+  run-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Run typstyle
+        uses: grayespinoza/typstyle-action@v0.13.11

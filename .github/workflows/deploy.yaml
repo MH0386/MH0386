@@ -1,4 +1,4 @@
-name: Deploy static content to Pages
+name: Deploy Docs
 on:
   push:
     branches: 
@@ -10,7 +10,7 @@ permissions:
   id-token: write
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   deploy:
     name: Deploy

@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
       - name: Setup typstyle
         uses: baptiste0928/cargo-install@e38323ef017552d7f7af73a3f4db467f278310ed # v3
-        with: 
+        with:
           crate: typstyle
       - name: Run typstyle
         run: find . -name "*.typ" | xargs -r typstyle -i

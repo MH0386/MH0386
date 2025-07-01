@@ -62,7 +62,4 @@ queue_rules:
           - check-success = CodeFactor
           - check-success = GitGuardian Security Checks
           - check-success = CodeRabbit
-          - check-success = Typst
-      - or:
-          - check-success = pre-commit.ci - push
           - check-success = pre-commit.ci - pr

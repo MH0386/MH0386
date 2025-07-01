@@ -2,6 +2,7 @@ name: Generate Resume
 on: [push]
 jobs:
     build_typst:
+        name: Typst
         runs-on: ubuntu-latest
         permissions:
           contents: write

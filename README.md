@@ -9,16 +9,6 @@
 
 ---
 
-<a href="https://github.com/devxb/gitanimals">
-  <img
-    src="https://render.gitanimals.org/lines/MH0386?pet-id=655173833356605893"
-    width="800"
-    height="200"
-  />
-</a>
-
----
-
 ![](https://github-readme-stats.vercel.app/api?username=MH0386&theme=github_dark&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
 ![](https://github-readme-activity-graph.vercel.app/graph?username=MH0386&radius=16&theme=react&area=true&order=5)
 

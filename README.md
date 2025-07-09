@@ -4,7 +4,7 @@
 [![wakatime](https://wakatime.com/badge/user/e4d8d817-59ad-4a5a-8eb5-e35ff92d6626.svg)](https://wakatime.com/@MH0386)
 [![Peerlist](https://img.shields.io/badge/Peerlist-gray)](https://peerlist.io/mh0386)
 [![](https://www.codewars.com/users/MH0386/badges/micro)](https://www.codewars.com/users/MH0386)
-[![My CV](https://img.shields.io/badge/My%20CV-My%20CV)](https://github.com/MH0386/MH0386/blob/main/resume.pdf)
+[![My CV](https://img.shields.io/badge/My%20CV-My%20CV)](https://mohamedhisham.is-a.dev/MH0386/resume.pdf)
 [![GitRoll](https://img.shields.io/badge/GitRoll-blue)](https://gitroll.io/profile/uZb4MEBrxYReBqPwHa4MWRdtFmg03)
 
 ---

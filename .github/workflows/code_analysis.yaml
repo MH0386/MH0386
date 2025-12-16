@@ -4,7 +4,7 @@ on:
   pull_request:
 permissions: read-all
 concurrency:
-  group: code-analysis
+  group: ${{ github.workflow }}-${{ github.ref_name }}
   cancel-in-progress: true
 jobs:
   typstyle:

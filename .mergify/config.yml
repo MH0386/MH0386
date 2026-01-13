@@ -1,4 +1,40 @@
 pull_request_rules:
+  - name: Ping PR author when conflicting
+    description: Warn the pull request author when their PR are conflicting
+    conditions:
+      - conflict
+      - -closed
+    actions:
+      comment:
+        message: >-
+          👋 {{author}} your PR is conflicting and needs to be updated to be merged
+
+  - name: Label conflicting pull requests
+    description: Add a label to a pull request with conflict to spot it easily
+    conditions:
+      - conflict
+      - -closed
+    actions:
+      label:
+        toggle:
+          - conflict
+  - name: Label Mergify Stacks PRs
+    description: Pull requests that are part of a Mergify stack should be labeled as such
+    conditions:
+      - "commits[0].commit_message ~= (?m)Change-Id:"
+    actions:
+      label:
+        toggle:
+          - stack
+  - name: Label first PR of Mergify Stacks PRs
+    description: The first PR of a Mergify stack should be labeled as such
+    conditions:
+      - "commits[0].commit_message ~= (?m)Change-Id:"
+      - -base ~= ^mergify_cli/
+    actions:
+      label:
+        toggle:
+          - top of the stack
   - name: Merge pull request when the configuration of Mergify is valid
     conditions:
       - author = MH0386
@@ -11,7 +47,7 @@ pull_request_rules:
       - merged
     actions:
       comment:
-        message: >
+        message: >-
           Thank you for your contribution @{{author}}! Your pull request has been merged.
   - name: Comment if there is a conflict
     conditions:
@@ -39,17 +75,16 @@ pull_request_rules:
         toggle:
           - merge-queued
   - name: Notify when a PR is removed from the queue
-    description: >
+    description: >-
       Notify the PR author when its pull request is removed from the merge queue.
     conditions:
       - queue-dequeue-reason != none
       - queue-dequeue-reason != pr-merged
     actions:
       comment:
-        message: >
+        message: >-
           Hey @{{author}}, your pull request has been dequeued due to the following reason:
           {{queue_dequeue_reason}}.
-
           Sorry about that, but you can requeue the PR by using `@mergifyio requeue` if you think
           this was a mistake.
 queue_rules:
@@ -61,4 +96,5 @@ queue_rules:
       - and:
           - check-success = CodeFactor
           - check-success = GitGuardian Security Checks
+          - check-success = Check Dependency Compatibility
           - check-success = CodeRabbit

@@ -124,13 +124,6 @@ pull_request_rules:
       label:
         toggle:
           - top of the stack
-  - name: Merge pull request when the configuration of Mergify is valid
-    conditions:
-      - author = MH0386
-      - "title = ci(Mergify): configuration update"
-      - head = mergify/MH0386/config-update
-    actions:
-      merge:
   - name: Automatically queue valid Bot PRs
     conditions:
       - author != MH0386

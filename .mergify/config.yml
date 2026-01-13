@@ -98,3 +98,6 @@ queue_rules:
           - check-success = GitGuardian Security Checks
           - check-success = Check Dependency Compatibility
           - check-success = CodeRabbit
+          - 'check-success = DeepSource: Secrets'
+          - check-success = SonarCloud
+          - check-success = CodeQL

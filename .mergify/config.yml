@@ -1,18 +1,4 @@
 pull_request_rules:
-  - name: Automatically queue Jupyter Notebooks
-    conditions:
-      - files ~= \.ipynb$
-      - author = renovate[bot]
-      - and:
-          - check-success = Run Tests
-          - check-success = Check Jupyter Notebooks
-          - check-success = Check Dependency Compatibility
-          - check-success = Clean Jupyter Notebooks
-    actions:
-      queue:
-      label:
-        add:
-          - jupyter-notebook
   - name: Automatically queue pre-commit Updates
     conditions:
       - files ~= .pre-commit-config.yaml

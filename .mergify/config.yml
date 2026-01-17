@@ -1,4 +1,11 @@
 pull_request_rules:
+  - name: Add AUR label on PKGBUILD changes
+    conditions:
+      - files ~= packages/.*/PKGBUILD
+    actions:
+      label:
+        add:
+          - AUR
   - name: Automatically queue pre-commit Updates
     conditions:
       - files ~= .pre-commit-config.yaml

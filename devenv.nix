@@ -1,6 +1,9 @@
 { pkgs, lib, ... }:
 {
-  scripts.typst-build.exec = "${lib.getExe pkgs.typst} compile resume.typst docs/resume.pdf";
+  scripts.typst-build.exec = ''
+    mkdir -p ${config.env.DOCS_DIR}
+    ${lib.getExe pkgs.typst} compile resume.typst ${config.env.DOCS_DIR}/resume.pdf
+  '';
 
   languages.typst = {
     enable = true;

@@ -9,6 +9,29 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.id || github.ref_name }}
   cancel-in-progress: true
 jobs:
+  devenv:
+    name: Devenv Update
+    runs-on: ubuntu-latest
+    environment: devenv
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4.0.0
+      - name: Install Nix
+        uses: cachix/install-nix-action@v31.9.0
+      - name: Cache
+        uses: cachix/cachix-action@v16
+        with:
+          name: devenv
+      - name: Install devenv.sh
+        run: nix profile install nixpkgs#devenv
+      - name: Run update
+        run: devenv update
+      - name: Commit and push update changes
+        uses: stefanzweifel/git-auto-commit-action@v7.0.0
+        with:
+          commit_message: 'devenv: Updates Lockfile'
   test:
     name: Test
     runs-on: ubuntu-latest

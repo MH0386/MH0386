@@ -67,8 +67,6 @@ jobs:
     name: Build Typst Files
     runs-on: ubuntu-latest
     environment: build
-    permissions:
-      contents: write
     if: github.event_name != 'schedule'
     steps:
       - name: Checkout repository

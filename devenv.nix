@@ -44,6 +44,7 @@
   };
 
   git-hooks.hooks = {
+    treefmt.enable = true;
     typstyle.enable = true;
     action-validator.enable = true;
     actionlint.enable = true;

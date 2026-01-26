@@ -34,7 +34,7 @@ jobs:
       - name: Run update
         run: devenv update
       - name: Commit and push update changes
-        uses: stefanzweifel/git-auto-commit-action@28e16e81777b558cc906c8750092100bbb34c5e3 # v7.0.0
+        uses: stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9 # v7.1.0
         with:
           commit_message: 'devenv: Updates Lockfile'
   test:
@@ -60,7 +60,7 @@ jobs:
       - name: Run tests
         run: devenv test
       - name: Commit and push test/format changes
-        uses: stefanzweifel/git-auto-commit-action@28e16e81777b558cc906c8750092100bbb34c5e3 # v7.0.0
+        uses: stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9 # v7.1.0
         with:
           commit_message: 'devenv: apply test/format fixes'
   build:

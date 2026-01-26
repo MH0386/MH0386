@@ -19,6 +19,30 @@
     lsp.enable = true;
   };
 
+  files = {
+    ".yamllint.yaml".yaml = {
+      extends = "default";
+      rules = {
+        document-start = "disable";
+        truthy = "disable";
+        comments = "disable";
+        line-length.max = 130;
+      };
+    };
+    ".yamlfmt.yaml".yaml = {
+      line_ending = "lf";
+      formatter = {
+        type = "basic";
+        line_ending = "lf";
+        trim_trailing_whitespace = true;
+        eof_newline = true;
+        force_array_style = "block";
+        force_quote_style = "double";
+        scan_folded_as_literal = true;
+      };
+    };
+  };
+
   git-hooks.hooks = {
     typstyle.enable = true;
   };

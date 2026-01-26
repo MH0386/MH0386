@@ -170,3 +170,4 @@ queue_rules:
           - check-success = CodeRabbit
           - 'check-success = DeepSource: Secrets'
           - check-success = CodeQL
+          - check-success = Test

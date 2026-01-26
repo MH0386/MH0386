@@ -1,5 +1,14 @@
-{ pkgs, lib, ... }:
 {
+  pkgs,
+  lib,
+  config,
+  ...
+}:
+{
+  env = {
+    DOCS_DIR = "docs/";
+  };
+
   scripts.typst-build.exec = ''
     mkdir -p ${config.env.DOCS_DIR}
     ${lib.getExe pkgs.typst} compile resume.typst ${config.env.DOCS_DIR}/resume.pdf

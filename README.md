@@ -1,5 +1,7 @@
 # Hi, I am Mohamed Hisham, a fresh graduate from Cairo University
 
+[![CI](https://github.com/MH0386/MH0386/actions/workflows/ci.yaml/badge.svg)](https://github.com/MH0386/MH0386/actions/workflows/ci.yaml)
+
 [![](https://visitcount.itsvg.in/api?id=MH0386&label=Profile%20Views&color=12&icon=0&pretty=true)](https://visitcount.itsvg.in/analytics/MH0386)
 [![wakatime](https://wakatime.com/badge/user/e4d8d817-59ad-4a5a-8eb5-e35ff92d6626.svg)](https://wakatime.com/@MH0386)
 [![Peerlist](https://img.shields.io/badge/Peerlist-gray)](https://peerlist.io/mh0386)

@@ -78,16 +78,19 @@
     hadolint.enable = true;
   };
 
-  treefmt.config.programs = {
-    typstfmt.enable = true;
-    typstyle.enable = true;
-    actionlint.enable = true;
-    jsonfmt.enable = true;
-    nixf-diagnose.enable = true;
-    nixfmt.enable = true;
-    statix.enable = true;
-    taplo.enable = true;
-    xmllint.enable = true;
-    yamlfmt.enable = true;
+  treefmt = {
+    enable = true;
+    config.programs = {
+      # typstfmt.enable = true;
+      typstyle.enable = true;
+      actionlint.enable = true;
+      jsonfmt.enable = true;
+      nixf-diagnose.enable = true;
+      nixfmt.enable = true;
+      statix.enable = true;
+      taplo.enable = true;
+      xmllint.enable = true;
+      yamlfmt.enable = true;
+    };
   };
 }

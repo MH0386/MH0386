@@ -6,7 +6,7 @@
 }:
 {
   env = {
-    DOCS_DIR = "docs/";
+    DOCS_DIR = "docs";
   };
 
   scripts.typst-build.exec = ''

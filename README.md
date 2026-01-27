@@ -1,4 +1,5 @@
-# Hi, I am Mohamed Hisham, a fresh graduate from Cairo University
+Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) My name is Mohamed Hisham
+================================================================================================================================
 
 [![CI](https://github.com/MH0386/MH0386/actions/workflows/ci.yaml/badge.svg)](https://github.com/MH0386/MH0386/actions/workflows/ci.yaml)
 

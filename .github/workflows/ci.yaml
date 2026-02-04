@@ -36,7 +36,8 @@ jobs:
       - name: Commit and push update changes
         uses: stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9 # v7.1.0
         with:
-          commit_message: 'devenv: Updates Lockfile'
+          commit_message: 'devenv: Update devenv.lock'
+          push_options: '--force'
   test:
     name: Test
     runs-on: ubuntu-latest

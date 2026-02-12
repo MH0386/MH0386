@@ -167,6 +167,5 @@ queue_rules:
       - and:
           - check-success = CodeFactor
           - check-success = GitGuardian Security Checks
-          - check-success = CodeRabbit
           - 'check-success = DeepSource: Secrets'
           - check-success = CodeQL

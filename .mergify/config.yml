@@ -1,8 +1,9 @@
 pull_request_rules:
   - name: Add AUR label on PKGBUILD changes
     conditions:
-      - files ~= packages/.*/PKGBUILD
+      - files ~= packages/*/PKGBUILD
     actions:
+      queue:
       label:
         add:
           - AUR

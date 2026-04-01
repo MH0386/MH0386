@@ -3,6 +3,7 @@ pull_request_rules:
     conditions:
       - files ~= packages/.*/PKGBUILD
     actions:
+      queue:
       label:
         add:
           - AUR

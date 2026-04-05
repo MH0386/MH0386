@@ -166,7 +166,6 @@ queue_rules:
           - check-success = CodeQL
 merge_queue:
   mode: parallel
-  skip_intermediate_results: true
 scopes:
   source:
     files:

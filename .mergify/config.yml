@@ -1,7 +1,8 @@
+# yaml-language-server: $schema=https://dashboard.mergify.com/config-schemas/mergify-schema-v2.json
 pull_request_rules:
   - name: Label on PKGBUILD Changes
     conditions:
-      - files ~= **/PKGBUILD
+      - files ~= PKGBUILD$
     actions:
       label:
         toggle:

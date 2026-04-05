@@ -5,7 +5,7 @@ on:
       - main
   pull_request:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: "0 0 * * *"
 permissions: read-all
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.id || github.ref_name }}
@@ -37,8 +37,9 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9 # v7.1.0
         if: success() || failure()
         with:
-          commit_message: 'devenv: Update devenv.lock'
-          push_options: '--force'
+          commit_message: "devenv: Update devenv.lock"
+          push_options: "--force"
+          commit_options: "--no-verify"
   test:
     name: Test
     runs-on: ubuntu-latest
@@ -63,8 +64,11 @@ jobs:
         run: devenv test
       - name: Commit and push test/format changes
         uses: stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9 # v7.1.0
+        if: success() || failure()
         with:
-          commit_message: 'devenv: apply test/format fixes'
+          commit_message: "devenv: apply test/format fixes"
+          push_options: "--force"
+          commit_options: "--no-verify"
   build:
     name: Build Typst Files
     runs-on: ubuntu-latest

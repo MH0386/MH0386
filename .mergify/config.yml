@@ -1,72 +1,48 @@
 pull_request_rules:
-  - name: Add AUR label on PKGBUILD changes
+  - name: Label on PKGBUILD Changes
     conditions:
-      - files ~= packages/*/PKGBUILD
+      - files ~= **/PKGBUILD
     actions:
-      queue:
       label:
-        add:
+        toggle:
           - AUR
-  - name: Automatically queue pre-commit Updates
+  - name: Label on pre-commit Updates
     conditions:
       - files ~= .pre-commit-config.yaml
-      - author = renovate[bot]
     actions:
-      queue:
       label:
-        add:
+        toggle:
           - pre-commit
-  - name: Automatically queue Dockerfile Updates
+  - name: Label on Dockerfile Updates
     conditions:
       - files ~= Dockerfile
-      - author = renovate[bot]
-      - check-success = Test Image / API Test
-    actions:
-      queue:
-  - name: Automatically label Dockerfile Updates
-    conditions:
-      - files ~= Dockerfile
-      - author = renovate[bot]
     actions:
       label:
-        add:
+        toggle:
           - docker
-  - name: Automatically queue Github Actions Updates
+  - name: Label on Github Actions Updates
     conditions:
       - files ~= ^.github/workflows
-      - author = renovate[bot]
     actions:
-      queue:
       label:
-        add:
+        toggle:
           - github-actions
-  - name: Automatically queue valid Python Dependency Updates
+          - CI
+  - name: Label on Python Dependency Updates
     conditions:
       - files ~= ^(uv.lock|pyproject.toml)$
-      - author = renovate[bot]
-      - and:
-          - check-success = Check Dependency Compatibility
-          - check-success = Test Image / API Test
-    actions:
-      queue:
-  - name: Automatically label Python Dependency Updates
-    conditions:
-      - files ~= ^(uv.lock|pyproject.toml)$
-      - author = renovate[bot]
     actions:
       label:
-        add:
+        toggle:
           - uv
           - python
           - dependencies
-  - name: Automatically queue Docker Compose Updates
+  - name: Label on Docker Compose Updates
     conditions:
       - files ~= ^(docker-compose-dev.yaml|docker-compose.yaml)$
-      - author = renovate[bot]
     actions:
-      queue:
       label:
-        add:
+        toggle:
           - docker-compose
   - name: Merge pull request when the configuration of Mergify is valid
     conditions:
@@ -80,8 +56,8 @@ pull_request_rules:
       - merged
     actions:
       comment:
-        message: Thank you for your contribution @{{author}}! Your pull request has been
-          merged.
+        message: >-
+          Thank you for your contribution @{{author}}! Your pull request has been merged.
   - name: Comment if there is a conflict
     conditions:
       - conflict
@@ -89,24 +65,15 @@ pull_request_rules:
       comment:
         message: Hi @{{author}}, Your PR is in conflict and cannot be merged.
       label:
-        add:
+        toggle:
           - conflict
   - name: Automatic update of the pull requests
     conditions:
       - -merged
     actions:
       update:
-  - name: Ping PR author when conflicting
-    description: Warn the pull request author when their PR are conflicting
-    conditions:
-      - conflict
-      - -closed
-    actions:
-      comment:
-        message: 👋 {{author}} your PR is conflicting and needs to be updated to be
-          merged
-  - name: Label conflicting pull requests
-    description: Add a label to a pull request with conflict to spot it easily
+  - name: Ping PR author when conflicting with labellng
+    description: Warn the pull request author when their PR are conflicting and add a label
     conditions:
       - conflict
       - -closed
@@ -114,6 +81,9 @@ pull_request_rules:
       label:
         toggle:
           - conflict
+      comment:
+        message: >-
+          👋 {{author}} your PR is conflicting and needs to be updated to be merged
   - name: Label Mergify Stacks PRs
     description: Pull requests that are part of a Mergify stack should be labeled as such
     conditions:
@@ -131,12 +101,6 @@ pull_request_rules:
       label:
         toggle:
           - top of the stack
-  - name: Automatically queue valid Bot PRs
-    conditions:
-      - author != MH0386
-      - check-success = Check Dependency Compatibility
-    actions:
-      queue:
   - name: Add a queue label when PR is queued
     description: Toggle the queue label when a pull request is (un)queued.
     conditions:
@@ -152,7 +116,8 @@ pull_request_rules:
       - queue-dequeue-reason != pr-merged
     actions:
       comment:
-        message: "Hey @{{author}}, your pull request has been dequeued due to the
+        message:
+          "Hey @{{author}}, your pull request has been dequeued due to the
           following reason: {{queue_dequeue_reason}}. Sorry about that, but you
           can requeue the PR by using `@mergifyio requeue` if you think this was
           a mistake."

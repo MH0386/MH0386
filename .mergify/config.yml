@@ -167,8 +167,6 @@ queue_rules:
       - check-success = prek
     merge_conditions:
       - check-success = Build and publish AUR Package
-merge_queue:
-  mode: parallel
 merge_protections_settings:
   post_comment: true
 scopes:

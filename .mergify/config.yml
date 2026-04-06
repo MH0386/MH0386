@@ -162,7 +162,7 @@ queue_rules:
     allow_queue_branch_edit: true
     autoqueue: true
     queue_conditions:
-      - author = renovate[bot]  
+      - author = renovate[bot]
       - files ~= PKGBUILD$
       - check-success = prek
     merge_conditions:
@@ -170,7 +170,7 @@ queue_rules:
 merge_queue:
   mode: parallel
 merge_protections_settings:
-    post_comment: true
+  post_comment: true
 scopes:
   source:
     files:

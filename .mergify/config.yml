@@ -164,9 +164,9 @@ queue_rules:
     queue_conditions:
       - author = renovate[bot]
       - files ~= PKGBUILD$
-      - check-success = prek
+      - deployment-success = pre-commit
     merge_conditions:
-      - check-success = Build and publish AUR Package
+      - deployment-success = AUR
 merge_protections_settings:
   post_comment: true
 scopes:

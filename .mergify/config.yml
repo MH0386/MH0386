@@ -127,14 +127,12 @@ pull_request_rules:
         message: "Hey @{{author}}, your pull request has been dequeued due to the following reason: {{queue_dequeue_reason}}. Sorry about that, but you can requeue the PR by using `@mergifyio requeue` if you think this was a mistake."
 queue_rules:
   - name: pre-commit Updates
-    batch_size: 10
     allow_queue_branch_edit: true
     autoqueue: true
     queue_conditions:
       - files ~= .pre-commit-config.yaml
       - author = renovate[bot]
   - name: Dockerfile Updates
-    batch_size: 5
     allow_queue_branch_edit: true
     autoqueue: true
     queue_conditions:
@@ -143,7 +141,6 @@ queue_rules:
     merge_conditions:
       - check-success = Test Image / API Test
   - name: Github Actions Updates
-    batch_size: 10
     allow_queue_branch_edit: true
     autoqueue: true
     queue_conditions:
@@ -159,7 +156,6 @@ queue_rules:
     merge_conditions:
       - check-success = Test Image / API Test
   - name: Docker Compose Updates
-    batch_size: 10
     allow_queue_branch_edit: true
     autoqueue: true
     queue_conditions:

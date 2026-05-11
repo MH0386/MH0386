@@ -135,6 +135,7 @@ queue_rules:
   - name: Dockerfile Updates
     allow_queue_branch_edit: true
     autoqueue: true
+    max_checks_retries: 3
     queue_conditions:
       - files ~= Dockerfile$
       - author = renovate[bot]
@@ -149,6 +150,7 @@ queue_rules:
   - name: Python Dependency Updates
     allow_queue_branch_edit: true
     autoqueue: true
+    max_checks_retries: 3
     queue_conditions:
       - files ~= ^(uv.lock|pyproject.toml)$
       - author = renovate[bot]
@@ -173,6 +175,7 @@ queue_rules:
   - name: Nix Flake
     allow_queue_branch_edit: true
     autoqueue: true
+    max_checks_retries: 3
     queue_conditions:
       - author = renovate[bot]
       - deployment-success = flake
@@ -182,6 +185,7 @@ queue_rules:
   - name: Nix Check
     allow_queue_branch_edit: true
     autoqueue: true
+    max_checks_retries: 3
     queue_conditions:
       - author = renovate[bot]
       - deployment-success = nix

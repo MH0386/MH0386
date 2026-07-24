@@ -128,13 +128,11 @@ pull_request_rules:
 queue_rules:
   - name: pre-commit Updates
     allow_queue_branch_edit: true
-    autoqueue: true
     queue_conditions:
       - files ~= .pre-commit-config.yaml
       - author = renovate[bot]
   - name: Dockerfile Updates
     allow_queue_branch_edit: true
-    autoqueue: true
     max_checks_retries: 3
     queue_conditions:
       - files ~= Dockerfile$
@@ -143,13 +141,11 @@ queue_rules:
       - check-success = Test Image / API Test
   - name: Github Actions Updates
     allow_queue_branch_edit: true
-    autoqueue: true
     queue_conditions:
       - files ~= ^.github/workflows
       - author = renovate[bot]
   - name: Python Dependency Updates
     allow_queue_branch_edit: true
-    autoqueue: true
     max_checks_retries: 3
     queue_conditions:
       - files ~= ^(uv.lock|pyproject.toml)$
@@ -159,13 +155,11 @@ queue_rules:
       - check-success = Test Image / API Test
   - name: Docker Compose Updates
     allow_queue_branch_edit: true
-    autoqueue: true
     queue_conditions:
       - files ~= ^(docker-compose-dev.yaml|docker-compose.yaml)$
       - author = renovate[bot]
   - name: AUR Updates
     allow_queue_branch_edit: true
-    autoqueue: true
     queue_conditions:
       - author = renovate[bot]
       - files ~= PKGBUILD$
@@ -174,7 +168,6 @@ queue_rules:
       - deployment-success = AUR
   - name: Nix Flake
     allow_queue_branch_edit: true
-    autoqueue: true
     max_checks_retries: 3
     queue_conditions:
       - author = renovate[bot]
@@ -184,7 +177,6 @@ queue_rules:
       - deployment-success = test
   - name: Nix Check
     allow_queue_branch_edit: true
-    autoqueue: true
     max_checks_retries: 3
     queue_conditions:
       - author = renovate[bot]
@@ -194,6 +186,8 @@ queue_rules:
       - deployment-success = test
 merge_protections_settings:
   post_comment: true
+  auto_merge_conditions: true
+  reporting_method: check-runs
 scopes:
   source:
     files:

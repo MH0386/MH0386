@@ -4,7 +4,7 @@
 lockfile = true
 
 [tools]
-# Compiler, language server, and formatter for resume.typst.
+# Compiler, language server, and formatter for resume.typ.
 typst = "latest"
 tinymist = "latest"
 typstyle = "latest"
@@ -20,14 +20,14 @@ dir = "{{config_root}}"
 
 [tasks.typst-build]
 description = "Compile resume.typ to docs/resume.pdf"
-run = "typst compile resume.typ {{env.DOCS_DIR}}/resume.pdf"
+run = [
+  "mkdir {{env.DOCS_DIR}}",
+  "typst compile resume.typ {{env.DOCS_DIR}}/resume.pdf",
+]
 
 [tasks.fmt]
 description = "Format Typst and YAML sources"
-run = [
-  "typstyle --inplace resume.typ",
-  "yamlfmt .",
-]
+run = ["typstyle --inplace resume.typ", "yamlfmt ."]
 
 [tasks.check]
 description = "Check formatting, YAML, and GitHub Actions workflows"

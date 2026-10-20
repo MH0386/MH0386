@@ -1,12 +1,12 @@
 # yaml-language-server: $schema=https://dashboard.mergify.com/config-schemas/mergify-schema-v2.json
 pull_request_rules:
-  - name: Label on Nix Lock File Changes
+  - name: Label on Mise Lock File Changes
     conditions:
-      - files ~= ^(flake.lock|devenv.lock)$
+      - files ~= ^mise\.lock$
     actions:
       label:
         toggle:
-          - nix
+          - mise
   - name: Label on PKGBUILD Changes
     conditions:
       - files ~= PKGBUILD$
@@ -172,24 +172,14 @@ queue_rules:
       - deployment-success = pre-commit
     merge_conditions:
       - deployment-success = AUR
-  - name: Nix Flake
+  - name: Mise Lock
     allow_queue_branch_edit: true
     autoqueue: true
     max_checks_retries: 3
     queue_conditions:
       - author = renovate[bot]
-      - deployment-success = flake
-      - files ~= ^(flake.lock|devenv.lock)$
-    merge_conditions:
-      - deployment-success = test
-  - name: Nix Check
-    allow_queue_branch_edit: true
-    autoqueue: true
-    max_checks_retries: 3
-    queue_conditions:
-      - author = renovate[bot]
-      - deployment-success = nix
-      - files ~= .nix$
+      - deployment-success = mise
+      - files ~= ^mise\.lock$
     merge_conditions:
       - deployment-success = test
 merge_protections_settings:

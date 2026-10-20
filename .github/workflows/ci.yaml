@@ -11,10 +11,10 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.id || github.ref_name }}
   cancel-in-progress: true
 jobs:
-  devenv:
-    name: Devenv Update
+  mise:
+    name: Mise Update
     runs-on: ubuntu-latest
-    environment: devenv
+    environment: mise
     permissions:
       contents: write
     if: github.event_name == 'schedule'
@@ -23,21 +23,17 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           token: ${{ secrets.GH_TOKEN }}
-      - name: Install Nix
-        uses: cachix/install-nix-action@630ae543ea3a38a9a4166f03376c02c50f408342 # v31.11.0
-      - name: Cache
-        uses: cachix/cachix-action@5f2d7c5294214f71b873db4b969586b980625e71 # v17
+      - name: Install mise
+        uses: jdx/mise-action@fc42bcc7ddbf51124c30f95a877a0c5168a3bfde # v5.2.1
         with:
-          name: devenv
-      - name: Install devenv.sh
-        run: nix profile install nixpkgs#devenv
-      - name: Run update
-        run: devenv update
+          install: false
+      - name: Update lockfile
+        run: mise lock --bump
       - name: Commit and push update changes
         uses: stefanzweifel/git-auto-commit-action@4a55954c782fc1ea30b9056cd3e7a2b40ca8887d # v7.2.0
         if: success() || failure()
         with:
-          commit_message: "devenv: Update devenv.lock"
+          commit_message: "mise: update mise.lock"
           push_options: "--force"
           commit_options: "--no-verify"
   test:
@@ -52,21 +48,17 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           token: ${{ secrets.GH_TOKEN }}
-      - name: Install Nix
-        uses: cachix/install-nix-action@630ae543ea3a38a9a4166f03376c02c50f408342 # v31.11.0
-      - name: Cache
-        uses: cachix/cachix-action@5f2d7c5294214f71b873db4b969586b980625e71 # v17
-        with:
-          name: devenv
-      - name: Install devenv.sh
-        run: nix profile install nixpkgs#devenv
-      - name: Run tests
-        run: devenv test
-      - name: Commit and push test/format changes
+      - name: Install mise
+        uses: jdx/mise-action@fc42bcc7ddbf51124c30f95a877a0c5168a3bfde # v5.2.1
+      - name: Run checks
+        run: |
+          mise run fmt
+          mise run check
+      - name: Commit and push format changes
         uses: stefanzweifel/git-auto-commit-action@4a55954c782fc1ea30b9056cd3e7a2b40ca8887d # v7.2.0
         if: success() || failure()
         with:
-          commit_message: "devenv: apply test/format fixes"
+          commit_message: "mise: apply format fixes"
           push_options: "--force"
           commit_options: "--no-verify"
   build:
@@ -77,16 +69,10 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      - name: Install Nix
-        uses: cachix/install-nix-action@630ae543ea3a38a9a4166f03376c02c50f408342 # v31.11.0
-      - name: Cache
-        uses: cachix/cachix-action@5f2d7c5294214f71b873db4b969586b980625e71 # v17
-        with:
-          name: devenv
-      - name: Install devenv.sh
-        run: nix profile install nixpkgs#devenv
+      - name: Install mise
+        uses: jdx/mise-action@fc42bcc7ddbf51124c30f95a877a0c5168a3bfde # v5.2.1
       - name: Generate
-        run: devenv shell typst-build
+        run: mise run typst-build
       - name: Setup Pages
         uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
       - name: Upload artifact

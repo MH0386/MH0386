@@ -1,0 +1,38 @@
+#:schema https://mise.jdx.dev/schema/mise.json
+
+[settings]
+lockfile = true
+
+[tools]
+# Compiler, language server, and formatter for resume.typst.
+typst = "latest"
+tinymist = "latest"
+typstyle = "latest"
+# Checks for the YAML and GitHub Actions files in this repo.
+jactionlint = "latest"
+yamlfmt = "latest"
+
+[env]
+DOCS_DIR = "docs"
+
+[task_config]
+dir = "{{config_root}}"
+
+[tasks.typst-build]
+description = "Compile resume.typst to docs/resume.pdf"
+run = "typst compile resume.typst {{env.DOCS_DIR}}/resume.pdf"
+
+[tasks.fmt]
+description = "Format Typst and YAML sources"
+run = [
+  "typstyle --inplace resume.typst",
+  "yamlfmt .",
+]
+
+[tasks.check]
+description = "Check formatting, YAML, and GitHub Actions workflows"
+run = [
+  "typstyle --check resume.typst",
+  "yamlfmt -lint .",
+  "jactionlint --profile correctness",
+]

@@ -12,7 +12,11 @@
     #link("https://linkedin.com/in/MH0386")[Linkedin]
   ]
 ]
-#let chiline() = { v(-3pt); line(length: 100%); v(-5pt) }
+#let chiline() = {
+  v(-3pt)
+  line(length: 100%)
+  v(-5pt)
+}
 
 = #smallcaps[Education]
 #chiline()

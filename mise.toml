@@ -19,20 +19,20 @@ DOCS_DIR = "docs"
 dir = "{{config_root}}"
 
 [tasks.typst-build]
-description = "Compile resume.typst to docs/resume.pdf"
-run = "typst compile resume.typst {{env.DOCS_DIR}}/resume.pdf"
+description = "Compile resume.typ to docs/resume.pdf"
+run = "typst compile resume.typ {{env.DOCS_DIR}}/resume.pdf"
 
 [tasks.fmt]
 description = "Format Typst and YAML sources"
 run = [
-  "typstyle --inplace resume.typst",
+  "typstyle --inplace resume.typ",
   "yamlfmt .",
 ]
 
 [tasks.check]
 description = "Check formatting, YAML, and GitHub Actions workflows"
 run = [
-  "typstyle --check resume.typst",
+  "typstyle --check resume.typ",
   "yamlfmt -lint .",
   "jactionlint --profile correctness",
 ]

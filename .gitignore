@@ -1,7 +1,4 @@
-.devenv*
-devenv.local.nix
-devenv.local.yaml
-.direnv
-.pre-commit-config.yaml
-.yamlfmt.yaml
-.yamllint.yaml
+mise.local.toml
+mise.local.lock
+.mise/locks/mise.local/
+docs/*

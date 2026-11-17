@@ -137,44 +137,51 @@ url = "https://github.com/typst/typst/releases/download/v0.15.1/typst-x86_64-pc-
 url_api = "https://api.github.com/repos/typst/typst/releases/assets/480303335"
 
 [[tools.typstyle]]
-version = "0.15.2"
+version = "0.15.3"
 backend = "aqua:typstyle-rs/typstyle"
 specifiers = ["latest"]
 
 [tools.typstyle."platforms.linux-arm64"]
-checksum = "sha256:4021f09180d04b804abfd6f5def3b09a0c63ecbb4d40e0d9b4ddd98e7b388f12"
-url = "https://github.com/typstyle-rs/typstyle/releases/download/v0.15.2/typstyle-aarch64-unknown-linux-gnu"
-url_api = "https://api.github.com/repos/typstyle-rs/typstyle/releases/assets/632369824"
+checksum = "sha256:3a8bcd929995904b4cd830cd9d6b1e620e5ed5ee9727198b1b5e2cc5f8cd48b8"
+checksum_source = "mise-versions"
+url = "https://github.com/typstyle-rs/typstyle/releases/download/v0.15.3/typstyle-aarch64-unknown-linux-gnu"
+url_api = "https://api.github.com/repos/typstyle-rs/typstyle/releases/assets/751380546"
 
 [tools.typstyle."platforms.linux-arm64-musl"]
-checksum = "sha256:4021f09180d04b804abfd6f5def3b09a0c63ecbb4d40e0d9b4ddd98e7b388f12"
-url = "https://github.com/typstyle-rs/typstyle/releases/download/v0.15.2/typstyle-aarch64-unknown-linux-gnu"
-url_api = "https://api.github.com/repos/typstyle-rs/typstyle/releases/assets/632369824"
+checksum = "sha256:3a8bcd929995904b4cd830cd9d6b1e620e5ed5ee9727198b1b5e2cc5f8cd48b8"
+checksum_source = "mise-versions"
+url = "https://github.com/typstyle-rs/typstyle/releases/download/v0.15.3/typstyle-aarch64-unknown-linux-gnu"
+url_api = "https://api.github.com/repos/typstyle-rs/typstyle/releases/assets/751380546"
 
 [tools.typstyle."platforms.linux-x64"]
-checksum = "sha256:ea790059cd05016a6f4282386ab7b4fc92f83faa0f5126d8216df2562d7596fd"
-url = "https://github.com/typstyle-rs/typstyle/releases/download/v0.15.2/typstyle-x86_64-unknown-linux-gnu"
-url_api = "https://api.github.com/repos/typstyle-rs/typstyle/releases/assets/632370088"
+checksum = "sha256:e605da8ac55815bd343596210211994af02b54069bfd306f71d07c16542f74c2"
+checksum_source = "mise-versions"
+url = "https://github.com/typstyle-rs/typstyle/releases/download/v0.15.3/typstyle-x86_64-unknown-linux-gnu"
+url_api = "https://api.github.com/repos/typstyle-rs/typstyle/releases/assets/751380101"
 
 [tools.typstyle."platforms.linux-x64-musl"]
-checksum = "sha256:4a00dc3270bbc545fb05d8d1c272f352ce68bf9e06d1cceba0126b4bcc1140ff"
-url = "https://github.com/typstyle-rs/typstyle/releases/download/v0.15.2/typstyle-x86_64-unknown-linux-musl"
-url_api = "https://api.github.com/repos/typstyle-rs/typstyle/releases/assets/632370185"
+checksum = "sha256:dee2de93d6218de1fb9f071edebab2e1fb7c33bf92dfde5008f56ee3126f5143"
+checksum_source = "mise-versions"
+url = "https://github.com/typstyle-rs/typstyle/releases/download/v0.15.3/typstyle-x86_64-unknown-linux-musl"
+url_api = "https://api.github.com/repos/typstyle-rs/typstyle/releases/assets/751379981"
 
 [tools.typstyle."platforms.macos-arm64"]
-checksum = "sha256:b3f7d55bf06f2b190a05ade3357ed62206aef5dabf12d205d158bc2bb203c975"
-url = "https://github.com/typstyle-rs/typstyle/releases/download/v0.15.2/typstyle-aarch64-apple-darwin"
-url_api = "https://api.github.com/repos/typstyle-rs/typstyle/releases/assets/632369826"
+checksum = "sha256:a895316b606319bf05764402ea151c179d7de496526c4060594c2c1a5edf1224"
+checksum_source = "mise-versions"
+url = "https://github.com/typstyle-rs/typstyle/releases/download/v0.15.3/typstyle-aarch64-apple-darwin"
+url_api = "https://api.github.com/repos/typstyle-rs/typstyle/releases/assets/751380797"
 
 [tools.typstyle."platforms.macos-x64"]
-checksum = "sha256:8a02e72953d2ff183fed7753b8a19e2c372fbbcff49266d2b8fd703577ed5f89"
-url = "https://github.com/typstyle-rs/typstyle/releases/download/v0.15.2/typstyle-x86_64-apple-darwin"
-url_api = "https://api.github.com/repos/typstyle-rs/typstyle/releases/assets/632369977"
+checksum = "sha256:04255bfcbb80734dfb2b3929cfb76cb9693c72b90ee4c68c931f7988eaff26db"
+checksum_source = "mise-versions"
+url = "https://github.com/typstyle-rs/typstyle/releases/download/v0.15.3/typstyle-x86_64-apple-darwin"
+url_api = "https://api.github.com/repos/typstyle-rs/typstyle/releases/assets/751380315"
 
 [tools.typstyle."platforms.windows-x64"]
-checksum = "sha256:ec620da653e620968020768443bbe51acc96c65aa3fc15cd9f3a7610f2fbf782"
-url = "https://github.com/typstyle-rs/typstyle/releases/download/v0.15.2/typstyle-x86_64-pc-windows-msvc.exe"
-url_api = "https://api.github.com/repos/typstyle-rs/typstyle/releases/assets/632370015"
+checksum = "sha256:840a9ba38bec7f669434743598c1407f3a5d85cf597c1cd3daa657bb842f4049"
+checksum_source = "mise-versions"
+url = "https://github.com/typstyle-rs/typstyle/releases/download/v0.15.3/typstyle-x86_64-pc-windows-msvc.exe"
+url_api = "https://api.github.com/repos/typstyle-rs/typstyle/releases/assets/751380196"
 
 [[tools.yamlfmt]]
 version = "0.21.0"

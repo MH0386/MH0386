@@ -57,9 +57,9 @@ B.Sc. in Computers and Information (AI Department), Faculty of Computers and Art
 = #smallcaps[Skills]
 #chiline()
 #strong[Languages:] Python, SQL, TypeScript, Rust \
-#strong[Specializations:] Machine Learning, Deep Learning, LLMs, Voice Agents, RAG, Computer Vision \
-#strong[Frameworks:] TensorFlow, PyTorch, NumPy, Pandas, FastAPI, LiveKit Agents, Next.js \
-#strong[Tools:] Git, GitHub, Jupyter, Docker, GitHub Actions
+#strong[Specializations:] Machine Learning, Deep Learning, LLMs, Agents, RAG, Generative AI, MCP \
+#strong[Frameworks:] TensorFlow, PyTorch, NumPy, Pandas, scikit-learn, PySpark, Transformers, FastAPI, LiveKit Agents, Next.js \
+#strong[Tools:] Git, GitHub, Jupyter, Docker, GitHub Actions, Supabase
 
 = #smallcaps[Certifications]
 #chiline()

@@ -20,42 +20,39 @@
 
 = #smallcaps[Education]
 #chiline()
-#strong[Cairo University] #h(1fr) Giza, Egypt \
-Master of Science in Data Science, Faculty of Graduate Studies for Statistical Research #h(1fr) October 2026 - Present
+#strong[Cairo University] #h(1fr) October 2026 - Present \
+Master of Science in Data Science, Faculty of Graduate Studies for Statistical Research
 
-#strong[Cairo University] #h(1fr) Giza, Egypt \
-Bachelor of Computer Science (AI Department), Faculty of Computers and Artificial Intelligence #h(1fr) October 2020 - July 2024
+#strong[Cairo University] #h(1fr) October 2020 - July 2024 \
+Bachelor of Science in Computers and Information (AI Department), Faculty of Computers and Artificial Intelligence
 
 = #smallcaps[Experience]
 #chiline()
 #strong[NASA Space Apps Cairo] | Participant #h(1fr) Remote, October 2024
 - Competed in the hackathon with a team of 4 teammates, building the Seismic Detection project using deep learning.
 
-#strong[Science Land] | AI Intern #h(1fr) Cairo, August 2023
+#strong[Science Land] | AI Intern #h(1fr) Remote, August 2023
 - Completed an AI bootcamp covering programming and the mathematics behind AI.
 
-#strong[Coding Raja Technologies] | Machine Learning Intern #h(1fr) Remote (India), July 2023
+#strong[Coding Raja Technologies] | Machine Learning Intern #h(1fr) Remote , July 2023
 - Completed a 1-month ML internship delivering 3 projects: Spam Detection, Handwritten Recognition, and Product Recommendation, using TensorFlow, ANNs, and unsupervised learning.
 - Received a letter of recommendation.
 
-#strong[GDSC Cairo University] | Machine Learning Intern #h(1fr) February 2023 - April 2023
+#strong[GDSC Cairo University] | ML Intern #h(1fr) Remote, February 2023 - April 2023
 - Completed a 3-month ML workshop, delivering 5 projects in data analysis and machine learning (e.g., linear regression).
 
 = #smallcaps[Projects]
 #chiline()
-- #strong[Chatacter] (Team, October 2023 - Present): LLM-based project developed collaboratively.
-- #strong[Facial Emotions Detection] (July 2023): Emotion classification from facial images using CNNs with TensorFlow.
-- #strong[Hexapod Robot] (Team, November 2023): Six-legged robot built and programmed with Arduino.
-- #strong[Seismic Detection] (NASA Space Apps 2024): Deep learning approach to detecting seismic events.
-- #strong[Face Recognition]: Computer vision project for recognizing faces.
-- #strong[#link("https://github.com/MH0386/car_price_prediction")[Car Price Prediction] & #link("https://github.com/MH0386/motorcycle_data_analysis")[Motorcycle Data Analysis]]: Regression modeling and exploratory data analysis.
+- #link("https://github.com/MH0386/Chatacter")[#strong[Chatacter]] #h(1fr) LLM-based educational chatbot
+  - Stack: Python, Livekit Agent SDK, Livekit Next.js
+- #link("https://github.com/MH0386/agm")[#strong[agm]] #h(1fr) Agent Manager CLI
+  - Stack: Rust, Clap
 
 = #smallcaps[Skills]
 #chiline()
-#strong[Languages:] Python, SQL, Java, C++, Dart \
-#strong[ML/DL:] TensorFlow, PyTorch, NumPy, Pandas \
-#strong[Areas:] Machine Learning, Deep Learning, CNNs, Computer Vision, LLMs, Data Analysis & Visualization \
-#strong[Tools:] Git/GitHub, Jupyter, Arduino
+#strong[Languages:] Python, SQL, Rust \
+#strong[Frameworks:] TensorFlow, PyTorch, NumPy, Pandas, FastAPI \
+#strong[Tools:] Git, GitHub, Jupyter, Docker, GitHub Actions
 
 = #smallcaps[Certifications]
 #chiline()

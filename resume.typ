@@ -30,9 +30,6 @@ B.Sc. in Computers and Information (AI Department), Faculty of Computers and Art
 
 = #smallcaps[Experience]
 #chiline()
-#strong[NASA Space Apps Cairo] | Participant #h(1fr) Remote, October 2024
-- Built a deep learning seismic detection model with a team of 4 at the NASA Space Apps Cairo hackathon.
-
 #strong[Science Land] | AI Intern #h(1fr) Remote, August 2023
 - Completed an AI bootcamp covering programming and the mathematical foundations of AI.
 
@@ -53,6 +50,11 @@ B.Sc. in Computers and Information (AI Department), Faculty of Computers and Art
   Classified 8 facial emotions using pretrained Xception features with SVM and XGBoost, optimizing model performance through genetic-algorithm hyperparameter search and ant colony optimization.
 - #link("https://github.com/MH0386/agm")[#strong[agm]] | Agent Manager CLI (In Progress) #h(1fr) Rust, Clap \
   Open-source CLI for installing AI agents and managing their skills and MCP servers from a single JSON config.
+
+= #smallcaps[Achievements]
+#chiline()
+- #link("https://www.kaggle.com/mh0386")[#strong[Kaggle Datasets Expert]] | Ranked top 10% (1,128 of 12,362) with 7 published datasets.
+- #strong[NASA Space Apps Cairo 2024] | Built a deep learning seismic detection model with a team of 4.
 
 = #smallcaps[Skills]
 #chiline()

@@ -46,11 +46,11 @@ B.Sc. in Computers and Information (AI Department), Faculty of Computers and Art
 = #smallcaps[Projects]
 #chiline()
 - #strong[Etmen] | AI clinic management system (Team of 4) #h(1fr) Python, LiveKit, Gemini, Supabase \
-  Clinic system for junior doctors with an Arabic AI voice secretary that books, reschedules, and cancels appointments. Built the voice agent and the Supabase database schema. Started at the Voltra × Beyond Healthcare Hackathon.
+  Built a clinic system for junior doctors featuring an Arabic AI voice secretary that booked, rescheduled, and canceled appointments; started at the Voltra × Beyond Healthcare Hackathon.
 - #link("https://github.com/MH0386/chatacter")[#strong[Chatacter]] | Educational voice AI agent #h(1fr) Python, TypeScript, Gemini, LiveKit \
-  Real-time voice agent where learners talk with historical figures or query their own documents via RAG; built with Gemini Live, LiveKit Agents, and Next.js, with a prompt-injection guardrail, Docker, and CI.
+  Built a real-time voice agent enabling learners to converse with historical figures or query their documents via RAG, using Gemini Live, LiveKit Agents, and Next.js; containerized the application with Docker and automated CI with GitHub Actions.
 - #link("https://github.com/MH0386/facial_emotions_detection")[#strong[Facial Emotions Detection]] | Team #h(1fr) TensorFlow, scikit-learn, XGBoost \
-  Classified 8 facial emotions using pretrained Xception features with SVM and XGBoost, tuned with genetic-algorithm search and ant colony optimization.
+  Classified 8 facial emotions using pretrained Xception features with SVM and XGBoost, optimizing model performance through genetic-algorithm hyperparameter search and ant colony optimization.
 - #link("https://github.com/MH0386/agm")[#strong[agm]] | Agent Manager CLI (In Progress) #h(1fr) Rust, Clap \
   Open-source CLI for installing AI agents and managing their skills and MCP servers from a single JSON config.
 

@@ -4,6 +4,7 @@
 #align(center)[
   #smallcaps[#text(weight: "black", size: 20pt)[Mohamed Hisham Abdelzaher]] \
   AI Graduate | M.Sc. Data Science Student, Cairo University | Kaggle Datasets Expert \
+  #link("tel:+201126748566")[+20 112 674 8566] |
   #link("mailto:mohamed.hisham.abdelzaher@gmail.com")[mohamed.hisham.abdelzaher\@gmail.com] |
   Giza, Egypt \
   #strong[

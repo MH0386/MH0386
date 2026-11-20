@@ -1,4 +1,4 @@
-#set page(margin: (x: 1.5cm, y: 1.3cm))
+#set page(margin: (x: 1.5cm, y: 0.9cm))
 #set text(size: 10pt)
 #set list(spacing: 0.5em)
 #align(center)[
@@ -21,6 +21,10 @@
   v(-5pt)
 }
 
+= #smallcaps[Summary]
+#chiline()
+AI graduate and Linux practitioner with a strong interest in RAG systems, staying current with the latest AI, technology, and open-source tools, and actively contributing to open-source projects. Committed to continuous learning, building practical technical expertise, and open to new opportunities in AI.
+
 = #smallcaps[Education]
 #chiline()
 - #strong[Cairo University] #h(1fr) October 2026 – Present \
@@ -35,7 +39,7 @@
   Completed an AI bootcamp focused on programming and the mathematical foundations of AI, building a strong foundation for applied AI work.
 
 - #strong[Coding Raja Technologies] | Machine Learning Intern #h(1fr) Remote, July 2023 \
-  Delivered three machine-learning projects during a one-month internship—spam detection, handwriting recognition, and product recommendation—using TensorFlow, artificial neural networks, and unsupervised learning; earned a letter of recommendation.
+  Delivered three ML projects during a one-month internship—spam detection, handwriting recognition, and product recommendation—using TensorFlow, ANNs, and unsupervised learning; earned a letter of recommendation.
 
 - #strong[GDSC Cairo University] | Machine Learning Intern #h(1fr) Remote, February 2023 – April 2023 \
   Drove five data analysis and machine learning projects over a three-month program.
@@ -59,9 +63,9 @@
 = #smallcaps[Skills]
 #chiline()
 #strong[Languages:] Python, SQL, TypeScript, Rust, Typst \
-#strong[Specializations:] Machine Learning, Deep Learning, LLMs, Agents, RAG, Generative AI, MCP \
+#strong[Specializations:] Machine Learning, Deep Learning, LLMs, Agents, RAG, Generative AI, MCP, Open Source \
 #strong[Frameworks:] TensorFlow, PyTorch, NumPy, Pandas, scikit-learn, PySpark, Transformers, FastAPI, LiveKit Agents, Next.js \
-#strong[Tools:] Git, GitHub, Jupyter, Docker, GitHub Actions, Supabase
+#strong[Tools:] Linux, Bash, Git, GitHub, Jupyter, Docker, GitHub Actions, Supabase
 
 = #smallcaps[Certifications]
 #chiline()
